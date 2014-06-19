@@ -2,7 +2,7 @@ package org.eobjects.datacleaner.repository.s3;
 
 import com.amazonaws.services.s3.AmazonS3Client;
 
-public class AmazonS3Repository {
+public class AmazonS3Repository extends AmazonS3RepositoryFolder {
 
     private final AmazonS3Client _client;
 
